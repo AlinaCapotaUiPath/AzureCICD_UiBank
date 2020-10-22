@@ -3,16 +3,18 @@
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
     "UiPath.Excel.Activities": "[2.9.3]",
     "UiPath.Mail.Activities": "[1.9.3]",
     "UiPath.System.Activities": "[20.10.1]",
+    "UiPath.Testing.Activities": "[1.2.4]",
     "UiPath.UIAutomation.Activities": "[20.10.5]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.10.0.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.1",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
@@ -36,7 +38,38 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [],
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "0105b02c-c7d6-430d-8ac1-ce101e3e0b3f",
+        "fileName": "TestCases\\Environment\\Login\\LoginOK.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "911a2993-a774-4da3-b282-acf761d0c234",
+        "fileName": "TestCases\\Environment\\APITokenCheck.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "00d4ab21-f633-491a-bdab-e2d3c4e57192",
+        "fileName": "TestCases\\Environment\\AssestsCheck.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ff00b197-50cf-4a68-a5f0-32e03a090c81",
+        "fileName": "TestCases\\Environment\\EndPointCheck.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c44f325a-83e7-4f24-9bbf-aea23d51787d",
+        "fileName": "TestCases\\NegativeAccountsProcess\\NegativeAccountsUICheck.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "00460fde-70bb-4978-b77a-fe90a20cd9e4",
+        "fileName": "TestCases\\NegativeAccountsProcess\\VerifyNegativeAccountsApis.xaml"
+      }
+    ],
     "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
