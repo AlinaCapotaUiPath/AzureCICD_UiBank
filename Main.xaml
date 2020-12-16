@@ -65,7 +65,7 @@
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <StateMachine InitialState="{x:Reference __ReferenceID3}" sap2010:Annotation.AnnotationText="UiBank_Demo CICD Demo&#xA;The process navigates to the UiBank Desktop App and extracts a list of accounts that have a negative balance" DisplayName="General Business Process" sap:VirtualizedContainerService.HintSize="687.333333333333,783.333333333333" sap2010:WorkflowViewState.IdRef="StateMachine_1">
+  <StateMachine InitialState="{x:Reference __ReferenceID3}" sap2010:Annotation.AnnotationText="UiBank_Demo CICD Demo0&#xA;The process navigates to the UiBank Desktop App and extracts a list of accounts that have a negative balance" DisplayName="General Business Process" sap:VirtualizedContainerService.HintSize="687.333333333333,783.333333333333" sap2010:WorkflowViewState.IdRef="StateMachine_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
